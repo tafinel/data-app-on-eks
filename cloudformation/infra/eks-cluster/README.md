@@ -124,7 +124,7 @@ $ sh cloudformation/infra/eks-cluster/generate-config-files.sh -r region -z az1,
 
     ![CF-Stacks.png](../../../images/CF-Stacks.png)
 
-# Please note a limitation in region us-east-1 where eksctl only create 2 public and 2 private subnets by default. Visit the link: https://eksctl.io/usage/vpc-networking/
+#### Please note a limitation in region us-east-1 where eksctl only create 2 public and 2 private subnets by default. Visit the link: https://eksctl.io/usage/vpc-networking/
 
 2. Testing the configuration using kubectl
 
